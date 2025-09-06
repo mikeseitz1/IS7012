@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap",
+		"dotnet.defaultSolution": "IS7012/WebApplication1.sln"
+	}
+}

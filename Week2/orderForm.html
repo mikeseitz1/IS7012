@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>"My Place" Order Form</h1>
+    <p>Thank you for visiting our restaurant.  Take a look at the selection of offerings and pick your favorites. <br> Please fill out the form below to place your order:</p>
+    <table>
+        <thead>
+            <caption>Menu</caption>
+        <tr>
+            <th>Dish</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Qty.</th>
+        </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+            <td>Spaghetti</td>
+            <td>My absolute favorite.  With meat sauce.<br> <img src=images/spaghetti.jpg height="50" alt="plate of spaghetti"> </td>
+            <td>$20.00</td>
+            <td><input type="number" id="quantity1" name="quantity1" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Lazagna</td>
+            <td>Number 2 on the best foods list. <br><img src=images/lasagna.jpg height="50" alt="plate of lazagna"></td>
+            <td>$12.00</td>
+            <td><input type="number" id="quantity2" name="quantity2" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Hamburger</td>
+            <td>For a simple gourmet treat. <br> <img src=images/hamburger.jpg height=50 alt="loaded hamburger"></td>
+            <td>$7.00</td>
+            <td><input type="number" id="quantity3" name="quantity3" min="0" value="0"></td>
+        </tr>
+        </tbody>
+
+    </table>
+    <br>
+    <h3>Place Your Order</h3>
+
+    <form action="/submit-order" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- <label for="product">Product:</label>
+        <select id="product" name="product" required>
+            <option value="">Select a Dish</option>
+            <option value="dish1">Spaghetti</option>
+            <option value="dish2">Lazagna</option>
+            <option value="dish3">Hamburger</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br> -->
+
+        <input type="submit" value="Submit Order">
+</body>
+</html>
