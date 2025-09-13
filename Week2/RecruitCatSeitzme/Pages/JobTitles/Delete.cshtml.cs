@@ -28,7 +28,7 @@ namespace RecruitCatSeitzme.Pages_JobTitles
                 return NotFound();
             }
 
-            var jobtitle = await _context.JobTitle.FirstOrDefaultAsync(m => m.Id == id);
+            var jobtitle = await _context.JobTitle.FirstOrDefaultAsync(m => m.JobTitleId == id);
 
             if (jobtitle is not null)
             {

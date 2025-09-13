@@ -1,0 +1,10 @@
+Scaffolding
+dotnet ef migrations add {MIGRATION NAME}
+then
+dotnet ef database update
+
+
+dotnet aspnet-codegenerator razorpage Company -m Company -dc RecruitCatSeitzmeDbContext -f --relativeFolderPath Pages/Companies --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator razorpage Candidate -m Candidate -dc RecruitCatSeitzmeDbContext -f --relativeFolderPath Pages/Candidates --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator razorpage JobTitle -m JobTitle -dc RecruitCatSeitzmeDbContext -f --relativeFolderPath Pages/JobTitles --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator razorpage Industry -m Industry -dc RecruitCatSeitzmeDbContext -f --relativeFolderPath Pages/Industries --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite

@@ -22,7 +22,8 @@ namespace RecruitCatSeitzme.Pages_Candidates
 
         public async Task OnGetAsync()
         {
-            Candidate = await _context.Candidate.ToListAsync();
+            Candidate = await _context.Candidate
+                .Include(c => c.Industry).ToListAsync();
         }
     }
 }

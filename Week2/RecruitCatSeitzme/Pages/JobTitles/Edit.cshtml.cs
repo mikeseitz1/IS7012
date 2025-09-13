@@ -29,7 +29,7 @@ namespace RecruitCatSeitzme.Pages_JobTitles
                 return NotFound();
             }
 
-            var jobtitle =  await _context.JobTitle.FirstOrDefaultAsync(m => m.Id == id);
+            var jobtitle =  await _context.JobTitle.FirstOrDefaultAsync(m => m.JobTitleId == id);
             if (jobtitle == null)
             {
                 return NotFound();
@@ -55,7 +55,7 @@ namespace RecruitCatSeitzme.Pages_JobTitles
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!JobTitleExists(JobTitle.Id))
+                if (!JobTitleExists(JobTitle.JobTitleId))
                 {
                     return NotFound();
                 }
@@ -70,7 +70,7 @@ namespace RecruitCatSeitzme.Pages_JobTitles
 
         private bool JobTitleExists(int id)
         {
-            return _context.JobTitle.Any(e => e.Id == id);
+            return _context.JobTitle.Any(e => e.JobTitleId == id);
         }
     }
 }

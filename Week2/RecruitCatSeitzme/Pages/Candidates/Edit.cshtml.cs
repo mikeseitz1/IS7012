@@ -29,12 +29,13 @@ namespace RecruitCatSeitzme.Pages_Candidates
                 return NotFound();
             }
 
-            var candidate =  await _context.Candidate.FirstOrDefaultAsync(m => m.Id == id);
+            var candidate =  await _context.Candidate.FirstOrDefaultAsync(m => m.CandidateId == id);
             if (candidate == null)
             {
                 return NotFound();
             }
             Candidate = candidate;
+           ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryId");
             return Page();
         }
 
@@ -55,7 +56,7 @@ namespace RecruitCatSeitzme.Pages_Candidates
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CandidateExists(Candidate.Id))
+                if (!CandidateExists(Candidate.CandidateId))
                 {
                     return NotFound();
                 }
@@ -70,7 +71,7 @@ namespace RecruitCatSeitzme.Pages_Candidates
 
         private bool CandidateExists(int id)
         {
-            return _context.Candidate.Any(e => e.Id == id);
+            return _context.Candidate.Any(e => e.CandidateId == id);
         }
     }
 }

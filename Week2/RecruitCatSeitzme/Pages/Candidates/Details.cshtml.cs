@@ -27,7 +27,7 @@ namespace RecruitCatSeitzme.Pages_Candidates
                 return NotFound();
             }
 
-            var candidate = await _context.Candidate.FirstOrDefaultAsync(m => m.Id == id);
+            var candidate = await _context.Candidate.FirstOrDefaultAsync(m => m.CandidateId == id);
 
             if (candidate is not null)
             {

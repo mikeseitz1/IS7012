@@ -27,7 +27,7 @@ namespace RecruitCatSeitzme.Pages_Industries
                 return NotFound();
             }
 
-            var industry = await _context.Industry.FirstOrDefaultAsync(m => m.Id == id);
+            var industry = await _context.Industry.FirstOrDefaultAsync(m => m.IndustryId == id);
 
             if (industry is not null)
             {

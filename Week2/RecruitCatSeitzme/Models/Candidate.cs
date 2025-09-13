@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace RecruitCatSeitzme.Models
 {
     public class Candidate
     {
-        public int Id { get; set; }
+        public int CandidateId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -20,10 +15,10 @@ namespace RecruitCatSeitzme.Models
         public string Status { get; set; }
         public int JobId { get; set; }
         public JobTitle JobTitle { get; set; }
-        public string? CompanyName { get; set; }
-        public string Industry { get; set; }
-
-
+        public Company? Company { get; set; }
+        public int IndustryId { get; set; }
+        public Industry? Industry { get; set; }
+     
 
     }
 }

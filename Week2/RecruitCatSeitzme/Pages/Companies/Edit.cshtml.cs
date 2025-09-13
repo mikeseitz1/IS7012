@@ -35,6 +35,7 @@ namespace RecruitCatSeitzme.Pages_Companies
                 return NotFound();
             }
             Company = company;
+           ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryId");
             return Page();
         }
 

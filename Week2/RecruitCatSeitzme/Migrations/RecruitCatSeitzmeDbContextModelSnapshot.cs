@@ -18,7 +18,7 @@ namespace RecruitCatSeitzme.Migrations
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Candidate", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CandidateId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -32,9 +32,6 @@ namespace RecruitCatSeitzme.Migrations
                     b.Property<int?>("CompanyId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("CoverLetter")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -47,11 +44,7 @@ namespace RecruitCatSeitzme.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Industry")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("IndustryId")
+                    b.Property<int>("IndustryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("JobId")
@@ -79,7 +72,7 @@ namespace RecruitCatSeitzme.Migrations
                     b.Property<DateTime?>("TargetStart")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("CandidateId");
 
                     b.HasIndex("CompanyId");
 
@@ -108,7 +101,7 @@ namespace RecruitCatSeitzme.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("IndustryID")
+                    b.Property<int>("IndustryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("JobId")
@@ -133,33 +126,37 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.HasKey("CompanyId");
 
-                    b.HasIndex("IndustryID");
+                    b.HasIndex("IndustryId");
 
                     b.ToTable("Company");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Industry", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IndustryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("IndustryName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("IndustryId");
 
                     b.ToTable("Industry");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.JobTitle", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("JobTitleId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("JobDescription")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("JobName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -169,24 +166,22 @@ namespace RecruitCatSeitzme.Migrations
                     b.Property<decimal>("SalaryMin")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
+                    b.HasKey("JobTitleId");
 
                     b.ToTable("JobTitle");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Candidate", b =>
                 {
-                    b.HasOne("RecruitCatSeitzme.Models.Company", null)
+                    b.HasOne("RecruitCatSeitzme.Models.Company", "Company")
                         .WithMany("Candidates")
                         .HasForeignKey("CompanyId");
 
-                    b.HasOne("RecruitCatSeitzme.Models.Industry", null)
+                    b.HasOne("RecruitCatSeitzme.Models.Industry", "Industry")
                         .WithMany("Candidates")
-                        .HasForeignKey("IndustryId");
+                        .HasForeignKey("IndustryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RecruitCatSeitzme.Models.JobTitle", "JobTitle")
                         .WithMany("Candidates")
@@ -194,16 +189,22 @@ namespace RecruitCatSeitzme.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Company");
+
+                    b.Navigation("Industry");
+
                     b.Navigation("JobTitle");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Company", b =>
                 {
-                    b.HasOne("RecruitCatSeitzme.Models.Industry", null)
+                    b.HasOne("RecruitCatSeitzme.Models.Industry", "Industry")
                         .WithMany("Companies")
-                        .HasForeignKey("IndustryID")
+                        .HasForeignKey("IndustryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Industry");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Company", b =>

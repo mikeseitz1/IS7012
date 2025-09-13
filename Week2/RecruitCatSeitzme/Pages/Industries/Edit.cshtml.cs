@@ -29,7 +29,7 @@ namespace RecruitCatSeitzme.Pages_Industries
                 return NotFound();
             }
 
-            var industry =  await _context.Industry.FirstOrDefaultAsync(m => m.Id == id);
+            var industry =  await _context.Industry.FirstOrDefaultAsync(m => m.IndustryId == id);
             if (industry == null)
             {
                 return NotFound();
@@ -55,7 +55,7 @@ namespace RecruitCatSeitzme.Pages_Industries
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!IndustryExists(Industry.Id))
+                if (!IndustryExists(Industry.IndustryId))
                 {
                     return NotFound();
                 }
@@ -70,7 +70,7 @@ namespace RecruitCatSeitzme.Pages_Industries
 
         private bool IndustryExists(int id)
         {
-            return _context.Industry.Any(e => e.Id == id);
+            return _context.Industry.Any(e => e.IndustryId == id);
         }
     }
 }

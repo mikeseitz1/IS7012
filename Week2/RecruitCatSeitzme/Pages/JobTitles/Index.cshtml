@@ -5,7 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Jobs</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
@@ -14,7 +14,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.JobTitle[0].Title)
+                @Html.DisplayNameFor(model => model.JobTitle[0].JobName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.JobTitle[0].SalaryMin)
@@ -23,7 +23,7 @@
                 @Html.DisplayNameFor(model => model.JobTitle[0].SalaryMax)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.JobTitle[0].Description)
+                @Html.DisplayNameFor(model => model.JobTitle[0].JobDescription)
             </th>
             <th></th>
         </tr>
@@ -32,7 +32,7 @@
 @foreach (var item in Model.JobTitle) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+                @Html.DisplayFor(modelItem => item.JobName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SalaryMin)
@@ -41,12 +41,12 @@
                 @Html.DisplayFor(modelItem => item.SalaryMax)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Description)
+                @Html.DisplayFor(modelItem => item.JobDescription)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.JobTitleId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.JobTitleId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.JobTitleId">Delete</a>
             </td>
         </tr>
 }

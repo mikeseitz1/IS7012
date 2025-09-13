@@ -20,6 +20,7 @@ namespace RecruitCatSeitzme.Pages_Companies
 
         public IActionResult OnGet()
         {
+        ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryId");
             return Page();
         }
 
