@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RecruitCatSeitzme
 build_property.RootNamespace = RecruitCatSeitzme
@@ -20,12 +28,172 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidate/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidate/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidate/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidate/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Candidate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Companies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Companies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFuaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Companies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFuaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Companies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFuaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Companies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Company/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Company/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Company/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Company/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industry/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industry/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industry/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/Industry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitle/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/JobTitle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iVGl0bGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mseitz3/OneDrive - DXC Production/school/IS7012/Week2/RecruitCatSeitzme/Pages/OurTeam.cshtml]

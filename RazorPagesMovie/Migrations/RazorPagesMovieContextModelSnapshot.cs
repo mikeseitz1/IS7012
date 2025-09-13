@@ -17,10 +17,30 @@ namespace RazorPagesMovie.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.8");
 
+            modelBuilder.Entity("RazorPagesMovie.Models.Director", b =>
+                {
+                    b.Property<int>("DirectorID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("BirthDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DirectorName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("DirectorID");
+
+                    b.ToTable("Director");
+                });
+
             modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("DirectorID")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Genre")
@@ -37,7 +57,23 @@ namespace RazorPagesMovie.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DirectorID");
+
                     b.ToTable("Movie");
+                });
+
+            modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
+                {
+                    b.HasOne("RazorPagesMovie.Models.Director", "Director")
+                        .WithMany("Movies")
+                        .HasForeignKey("DirectorID");
+
+                    b.Navigation("Director");
+                });
+
+            modelBuilder.Entity("RazorPagesMovie.Models.Director", b =>
+                {
+                    b.Navigation("Movies");
                 });
 #pragma warning restore 612, 618
         }

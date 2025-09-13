@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecruitCatSeitzme")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d364fe96fd09c6caa32d54122561ce68945bb14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38c708c773a2cbdaf3e8cbbc9a9d71aaa1906a5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecruitCatSeitzme")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecruitCatSeitzme")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

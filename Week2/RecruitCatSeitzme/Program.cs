@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RecruitCatSeitzmeDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RecruitCatSeitzmeDbContext") ?? throw new InvalidOperationException("Connection string 'RecruitCatSeitzmeDbContext' not found.")));
 
 var app = builder.Build();
 
