@@ -9,12 +9,11 @@ namespace Banking.Data
 {
     public class BankingContext : DbContext
     {
-        public BankingContext (DbContextOptions<BankingContext> options)
+        public BankingContext(DbContextOptions<BankingContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Banking.Models.AccountHolder> AccountHolder { get; set; } = default!;
-        public DbSet<Banking.Models.BankAccount> BankAccount { get; set; } = default!;
+        // DbSets...
     }
 }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RecruitCatSeitzme.Models;
 
-namespace RecruitCatSeitzme.Pages_Candidates
+namespace RecruitCatSeitzme.Pages.Candidates
 {
     public class EditModel : PageModel
     {
@@ -35,7 +35,8 @@ namespace RecruitCatSeitzme.Pages_Candidates
                 return NotFound();
             }
             Candidate = candidate;
-           ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryId");
+           ViewData["CompanyId"] = new SelectList(_context.Company, "CompanyId", "CompanyName");
+           ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryName");
             return Page();
         }
 

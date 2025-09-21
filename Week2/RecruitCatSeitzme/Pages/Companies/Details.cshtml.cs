@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RecruitCatSeitzme.Models;
 
-namespace RecruitCatSeitzme.Pages_Companies
+namespace RecruitCatSeitzme.Pages.Companies
 {
     public class DetailsModel : PageModel
     {
@@ -19,6 +19,7 @@ namespace RecruitCatSeitzme.Pages_Companies
         }
 
         public Company Company { get; set; } = default!;
+        public List<Candidate> Candidates { get; set; } // <-- Add this property
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -27,7 +28,11 @@ namespace RecruitCatSeitzme.Pages_Companies
                 return NotFound();
             }
 
-            var company = await _context.Company.FirstOrDefaultAsync(m => m.CompanyId == id);
+            var company = await _context.Company
+                .Include(c => c.Industry)
+                .Include(c => c.Candidates)
+                .FirstOrDefaultAsync(m => m.CompanyId == id);
+            
 
             if (company is not null)
             {

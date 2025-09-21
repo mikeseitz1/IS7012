@@ -1,0 +1,87 @@
+﻿@page
+@model BankMe.Pages.BankAccounts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>BankMe accounts</h1>
+
+<p>
+    <a asp-page="Create">Create New Account</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].AccountNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].RoutingNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].AccountName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].AccountType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].LastDepositDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccount[0].AccountHolder)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.BankAccount) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoutingNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastDepositDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountHolder.FullName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+
+}
+        <tr>
+            <th>
+                Total Balance
+            </th>
+            <th>
+                @Model.BankAccount.Sum(x => x.Balance).ToString("C2")
+            </th>
+        </tr>
+    </tbody>
+</table>

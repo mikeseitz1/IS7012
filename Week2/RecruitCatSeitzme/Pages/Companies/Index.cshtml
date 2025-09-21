@@ -1,5 +1,5 @@
-@page
-@model RecruitCatSeitzme.Pages_Companies.IndexModel
+﻿@page
+@model RecruitCatSeitzme.Pages.Companies.IndexModel
 
 @{
     ViewData["Title"] = "Index";
@@ -8,7 +8,7 @@
 <h1>Companies</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Create New Company</a>
 </p>
 <table class="table">
     <thead>
@@ -29,13 +29,10 @@
                 @Html.DisplayNameFor(model => model.Company[0].PositionName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Company[0].JobLocation)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Company[0].JobStartDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Company[0].JobSalaryMax)
+                @Html.DisplayNameFor(model => model.Company[0].SalaryMax)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Company[0].SalaryMin)
@@ -65,19 +62,16 @@
                 @Html.DisplayFor(modelItem => item.PositionName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.JobLocation)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.JobStartDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.JobSalaryMax)
+                @Html.DisplayFor(modelItem => item.SalaryMax)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SalaryMin)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Industry.IndustryId)
+                @Html.DisplayFor(modelItem => item.Industry.IndustryName)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.CompanyId">Edit</a> |

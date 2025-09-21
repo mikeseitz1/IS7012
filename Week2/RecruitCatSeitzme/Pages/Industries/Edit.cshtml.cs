@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RecruitCatSeitzme.Models;
 
-namespace RecruitCatSeitzme.Pages_Industries
+namespace RecruitCatSeitzme.Pages.Industries
 {
     public class EditModel : PageModel
     {

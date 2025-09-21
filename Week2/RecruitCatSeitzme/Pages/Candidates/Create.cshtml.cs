@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RecruitCatSeitzme.Models;
 
-namespace RecruitCatSeitzme.Pages_Candidates
+namespace RecruitCatSeitzme.Pages.Candidates
 {
     public class CreateModel : PageModel
     {
@@ -20,6 +20,8 @@ namespace RecruitCatSeitzme.Pages_Candidates
 
         public IActionResult OnGet()
         {
+        ViewData["CompanyId"] = new SelectList(_context.Company, "CompanyId", "CompanyName");
+        ViewData["IndustryId"] = new SelectList(_context.Industry, "IndustryId", "IndustryName");
             return Page();
         }
 

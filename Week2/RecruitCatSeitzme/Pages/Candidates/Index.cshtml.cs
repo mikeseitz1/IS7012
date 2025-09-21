@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RecruitCatSeitzme.Models;
 
-namespace RecruitCatSeitzme.Pages_Candidates
+namespace RecruitCatSeitzme.Pages.Candidates
 {
     public class IndexModel : PageModel
     {
@@ -23,6 +23,7 @@ namespace RecruitCatSeitzme.Pages_Candidates
         public async Task OnGetAsync()
         {
             Candidate = await _context.Candidate
+                .Include(c => c.Company)
                 .Include(c => c.Industry).ToListAsync();
         }
     }

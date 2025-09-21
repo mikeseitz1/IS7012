@@ -22,11 +22,12 @@ namespace RecruitCatSeitzme.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Address")
-                        .IsRequired()
+                    b.Property<DateTime>("ApplicationDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("ApplicationDate")
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<int?>("CompanyId")
@@ -34,6 +35,10 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.Property<string>("CoverLetter")
                         .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -42,22 +47,21 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("IndustryId")
+                    b.Property<int?>("IndustryId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("JobId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("JobTitleId")
+                    b.Property<int?>("JobTitleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LastName")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Phone")
+                    b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -65,11 +69,30 @@ namespace RecruitCatSeitzme.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("SocialSecurityNumber")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("StreetAddress")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime?>("TargetStart")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ZipCode")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("CandidateId");
@@ -91,10 +114,12 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.Property<string>("CompanyAddress")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CompanyName")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CompanyPhone")
@@ -111,18 +136,18 @@ namespace RecruitCatSeitzme.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("JobSalaryMax")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime?>("JobStartDate")
+                    b.Property<DateTime>("JobStartDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PositionName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<decimal>("SalaryMax")
+                        .HasColumnType("decimal(8,2)");
+
                     b.Property<decimal>("SalaryMin")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(8,2)");
 
                     b.HasKey("CompanyId");
 
@@ -139,6 +164,7 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.Property<string>("IndustryName")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("IndustryId");
@@ -154,17 +180,19 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.Property<string>("JobDescription")
                         .IsRequired()
+                        .HasMaxLength(500)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("JobName")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("SalaryMax")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(8,2)");
 
                     b.Property<decimal>("SalaryMin")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(8,2)");
 
                     b.HasKey("JobTitleId");
 
@@ -179,21 +207,15 @@ namespace RecruitCatSeitzme.Migrations
 
                     b.HasOne("RecruitCatSeitzme.Models.Industry", "Industry")
                         .WithMany("Candidates")
-                        .HasForeignKey("IndustryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IndustryId");
 
-                    b.HasOne("RecruitCatSeitzme.Models.JobTitle", "JobTitle")
+                    b.HasOne("RecruitCatSeitzme.Models.JobTitle", null)
                         .WithMany("Candidates")
-                        .HasForeignKey("JobTitleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("JobTitleId");
 
                     b.Navigation("Company");
 
                     b.Navigation("Industry");
-
-                    b.Navigation("JobTitle");
                 });
 
             modelBuilder.Entity("RecruitCatSeitzme.Models.Company", b =>

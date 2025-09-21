@@ -3,48 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\models\\accountholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\pages\\bankaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:pages\\bankaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\week3\\banking\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE988CB-520C-476E-8CD4-C5E6E92749AB}|Banking.csproj|solutionrelative:models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\bankaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F0556-C6A5-43DA-84C7-B76BD28FCA10}|..\\..\\BankMe\\BankMe\\BankMe.csproj|c:\\users\\mseitz3\\onedrive - dxc production\\school\\is7012\\bankme\\bankme\\pages\\accountholders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,144 +85,287 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Delete.cshtml",
-              "RelativeToolTip": "Pages\\BankAccounts\\Delete.cshtml",
+              "Title": "AccountHolder.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Models\\AccountHolder.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Models\\AccountHolder.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Models\\AccountHolder.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Models\\AccountHolder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:34:07.865Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:45:20.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Details.cshtml.cs",
-              "RelativeToolTip": "Pages\\BankAccounts\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Models\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Models\\BankAccount.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Models\\BankAccount.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:34:07.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Details.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Details.cshtml",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Details.cshtml",
-              "RelativeToolTip": "Pages\\BankAccounts\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:34:07.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Edit.cshtml.cs",
-              "RelativeToolTip": "Pages\\BankAccounts\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:34:06.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Delete.cshtml.cs",
-              "RelativeToolTip": "Pages\\BankAccounts\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:34:08.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Index.cshtml",
-              "RelativeToolTip": "Pages\\BankAccounts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:34:08.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\BankAccounts\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:34:08.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Edit.cshtml",
-              "RelativeToolTip": "Pages\\BankAccounts\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:34:06.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\BankAccounts\\Create.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:34:05.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BankAccounts\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Pages\\BankAccounts\\Create.cshtml",
-              "RelativeToolTip": "Pages\\BankAccounts\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:34:05.511Z",
+              "WhenOpened": "2025-09-19T00:36:30.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Models\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Models\\BankAccount.cs",
-              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\Week3\\Banking\\Models\\BankAccount.cs",
-              "RelativeToolTip": "Models\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:27:59.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABMAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:27:54.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:27:56.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:26:08.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:26:09.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:26:11.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Create.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:31:15.083Z",
+              "WhenOpened": "2025-09-19T00:27:55.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Edit.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:27:56.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:27:59.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:27:58.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:27:58.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:27:57.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\BankAccounts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:27:57.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:26:11.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:26:11.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:26:10.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:26:10.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T00:26:10.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:26:09.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\mseitz3\\OneDrive - DXC Production\\school\\IS7012\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml.cs",
+              "RelativeToolTip": "..\\..\\BankMe\\BankMe\\Pages\\AccountHolders\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:26:09.106Z",
               "EditorCaption": ""
             }
           ]

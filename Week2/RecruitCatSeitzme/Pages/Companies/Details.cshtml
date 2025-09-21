@@ -1,11 +1,11 @@
-@page
-@model RecruitCatSeitzme.Pages_Companies.DetailsModel
+﻿@page
+@model RecruitCatSeitzme.Pages.Companies.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Company Details</h1>
 
 <div>
     <h4>Company</h4>
@@ -54,10 +54,10 @@
             @Html.DisplayFor(model => model.Company.JobStartDate)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Company.JobSalaryMax)
+            @Html.DisplayNameFor(model => model.Company.SalaryMax)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Company.JobSalaryMax)
+            @Html.DisplayFor(model => model.Company.SalaryMax)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Company.SalaryMin)
@@ -69,10 +69,55 @@
             @Html.DisplayNameFor(model => model.Company.Industry)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Company.Industry.IndustryId)
+            @Html.DisplayFor(model => model.Company.Industry.IndustryName)
         </dd>
     </dl>
 </div>
+<h2> Candidates</h2>
+@if (Model.Candidates != null && Model.Candidates.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidates[0].FullName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidates[0].Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidates[0].PhoneNumber)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.Candidates)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    <a asp-page="/Candidates/Details" asp-route-id="@item.CandidateId">Details</a> |
+                    <a asp-page="/Candidates/Edit" asp-route-id="@item.CandidateId">Edit</a> |
+                    <a asp-page="/Candidates/Delete" asp-route-id="@item.CandidateId">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No candidates found for this company.</p>
+}
 <div>
     <a asp-page="./Edit" asp-route-id="@Model.Company.CompanyId">Edit</a> |
     <a asp-page="./Index">Back to List</a>

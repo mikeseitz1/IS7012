@@ -1,11 +1,11 @@
-@page
-@model RecruitCatSeitzme.Pages_Candidates.DetailsModel
+﻿@page
+@model RecruitCatSeitzme.Pages.Candidates.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Candidate Details</h1>
 
 <div>
     <h4>Candidate</h4>
@@ -30,16 +30,46 @@
             @Html.DisplayFor(model => model.Candidate.Email)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Candidate.Phone)
+            @Html.DisplayNameFor(model => model.Candidate.DateOfBirth)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Candidate.Phone)
+            @Html.DisplayFor(model => model.Candidate.DateOfBirth)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Candidate.Address)
+            @Html.DisplayNameFor(model => model.Candidate.StreetAddress)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Candidate.Address)
+            @Html.DisplayFor(model => model.Candidate.StreetAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidate.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidate.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidate.State)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidate.State)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidate.ZipCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidate.ZipCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidate.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidate.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidate.SocialSecurityNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidate.SocialSecurityNumber)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Candidate.ResumeUrl)
@@ -72,16 +102,18 @@
             @Html.DisplayFor(model => model.Candidate.Status)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Candidate.JobId)
+            @Html.DisplayNameFor(model => model.Candidate.Company)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Candidate.JobId)
+            @Html.DisplayFor(model => model.Candidate.Company.CompanyName)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Candidate.Industry)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Candidate.Industry.IndustryId)
+            @Html.DisplayFor(model => model.Candidate.Industry.IndustryName)
+               
+           
         </dd>
     </dl>
 </div>

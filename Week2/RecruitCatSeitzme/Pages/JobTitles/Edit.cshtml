@@ -1,11 +1,11 @@
-@page
-@model RecruitCatSeitzme.Pages_JobTitles.EditModel
+﻿@page
+@model RecruitCatSeitzme.Pages.JobTitles.EditModel
 
 @{
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Edit Job Title</h1>
 
 <h4>JobTitle</h4>
 <hr />
@@ -15,27 +15,27 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="JobTitle.JobTitleId" />
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="JobTitle.JobName" class="control-label"></label>
                 <input asp-for="JobTitle.JobName" class="form-control" />
                 <span asp-validation-for="JobTitle.JobName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="JobTitle.SalaryMin" class="control-label"></label>
                 <input asp-for="JobTitle.SalaryMin" class="form-control" />
                 <span asp-validation-for="JobTitle.SalaryMin" class="text-danger"></span>
             </div>
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="JobTitle.SalaryMax" class="control-label"></label>
                 <input asp-for="JobTitle.SalaryMax" class="form-control" />
                 <span asp-validation-for="JobTitle.SalaryMax" class="text-danger"></span>
             </div>
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="JobTitle.JobDescription" class="control-label"></label>
-                <input asp-for="JobTitle.JobDescription" class="form-control" />
+                <textarea asp-for="JobTitle.JobDescription" class="form-control" > </textarea>
                 <span asp-validation-for="JobTitle.JobDescription" class="text-danger"></span>
             </div>
             <div class="form-group">

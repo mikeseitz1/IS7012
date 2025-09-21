@@ -5,7 +5,7 @@
         ViewData["Title"] = "Create";
         }
         
-        <h1>Create a Candidate</h1>
+        <h1>Create New Candidate</h1>
         
     <h4>Candidate</h4>
     <hr />
@@ -82,7 +82,7 @@
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="Candidate.CoverLetter" class="control-label"></label>
-                <input asp-for="Candidate.CoverLetter" class="form-control" />
+                <textarea asp-for="Candidate.CoverLetter" class="form-control" ></textarea>
                 <span asp-validation-for="Candidate.CoverLetter" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -101,6 +101,16 @@
                 <label asp-for="Candidate.Status" class="control-label"></label>
                 <input asp-for="Candidate.Status" class="form-control" />
                 <span asp-validation-for="Candidate.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.IndustryId" class="control-label"></label>
+                <select asp-for="Candidate.IndustryId" class ="form-control" asp-items="ViewBag.IndustryId"></select>
+                <span asp-validation-for="Candidate.IndustryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.CompanyId" class="control-label"></label>
+                <select asp-for="Candidate.CompanyId" class ="form-control" asp-items="ViewBag.CompanyId"></select>
+                <span asp-validation-for="Candidate.CompanyId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
