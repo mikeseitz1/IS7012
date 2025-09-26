@@ -1,0 +1,71 @@
+﻿@page
+@model AuthenticationApp.Pages.Movies.SearchModel
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Search</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="get" class="form-check-inline">
+            <input asp-for="Query" class="form-control mr-sm-2 mb-2" placeholder="Search movie title..." />
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
+        </form>
+    </div>
+</div>
+
+@if (Model.SearchCompleted)
+{
+    if (Model.Movies.Any())
+    {
+        <h4>Search Results:</h4>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            No movies found matching your search criteria.
+        </div>
+    }
+}
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @if (Model.Movies.Any()) { @Html.DisplayNameFor(model => model.Movies[0].Title) }
+            </th>
+            <th>
+                @if (Model.Movies.Any()) { @Html.DisplayNameFor(model => model.Movies[0].Genre) }
+            </th>
+            <th>
+                @if (Model.Movies.Any()) { @Html.DisplayNameFor(model => model.Movies[0].Year) }
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Movies) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
