@@ -407,3 +407,4 @@ C:\Users\mseitz3\OneDrive - DXC Production\school\IS7012\FinalProject\ProjectApp
 C:\Users\mseitz3\OneDrive - DXC Production\school\IS7012\FinalProject\ProjectApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\mseitz3\OneDrive - DXC Production\school\IS7012\FinalProject\ProjectApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\mseitz3\OneDrive - DXC Production\school\IS7012\FinalProject\ProjectApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mseitz3\OneDrive - DXC Production\school\IS7012\FinalProject\ProjectApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

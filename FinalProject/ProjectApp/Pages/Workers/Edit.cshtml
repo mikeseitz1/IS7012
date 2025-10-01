@@ -15,19 +15,19 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Worker.Id" />
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="Worker.FirstName" class="control-label"></label>
                 <input asp-for="Worker.FirstName" class="form-control" />
                 <span asp-validation-for="Worker.FirstName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="Worker.LastName" class="control-label"></label>
                 <input asp-for="Worker.LastName" class="form-control" />
                 <span asp-validation-for="Worker.LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                
+                <span class="text-danger">*</span>
                 <label asp-for="Worker.Email" class="control-label"></label>
                 <input asp-for="Worker.Email" class="form-control" />
                 <span asp-validation-for="Worker.Email" class="text-danger"></span>

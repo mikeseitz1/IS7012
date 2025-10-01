@@ -29,7 +29,7 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AssignedTo.Id)
+                @(item.AssignedTo != null ? Html.DisplayFor(modelItem => item.AssignedTo.FullName) : "")
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

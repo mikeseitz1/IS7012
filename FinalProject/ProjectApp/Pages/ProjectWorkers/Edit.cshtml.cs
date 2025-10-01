@@ -36,8 +36,8 @@ namespace ProjectApp.Pages.ProjectWorkers
                 return NotFound();
             }
             ProjectWorker = projectworker;
-           ViewData["ProjectId"] = new SelectList(_context.Set<Project>(), "Id", "WorkerName");
-           ViewData["WorkerId"] = new SelectList(_context.Worker, "Id", "Id");
+           ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+           ViewData["WorkerId"] = new SelectList(_context.Worker, "Id", "Email");
             return Page();
         }
 

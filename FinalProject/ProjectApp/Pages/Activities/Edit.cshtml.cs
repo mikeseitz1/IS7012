@@ -36,7 +36,7 @@ namespace ProjectApp.Pages.Activities
                 return NotFound();
             }
             Activity = activity;
-           ViewData["AssignedToId"] = new SelectList(_context.Worker, "Id", "Id");
+           ViewData["AssignedToId"] = new SelectList(_context.Worker, "Id", "Email");
             return Page();
         }
 

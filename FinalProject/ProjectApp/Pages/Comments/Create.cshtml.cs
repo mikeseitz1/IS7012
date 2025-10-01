@@ -21,8 +21,8 @@ namespace ProjectApp.Pages.Comments
 
         public IActionResult OnGet()
         {
-        ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "Id");
-        ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "WorkerName");
+        ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "Email");
+        ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
             return Page();
         }
 
