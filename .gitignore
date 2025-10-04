@@ -7,3 +7,5 @@
 /FinalProject2/ProjectApp/bin/*
 /FinalProject2/ProjectApp/obj/*
 /FinalProject/ProjectApp/obj/Debug/net9.0/compressed
+bin
+obj
