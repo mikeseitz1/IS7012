@@ -14,17 +14,16 @@ namespace ProjectApp.Pages.Comments
     {
         private readonly ProjectApp.Data.ApplicationDbContext _context;
 
-        public CreateModel(ProjectApp.Data.ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        public CreateModel(ProjectApp.Data.ApplicationDbContext context) => _context = context;
 
         public IActionResult OnGet()
-        {
-        ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
-        ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "FullName");
-            return Page();
-        }
+        
+            {
+                ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+                ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "FullName");
+                return Page();
+            }
+        
 
         [BindProperty]
         public Comment Comment { get; set; } = default!;
@@ -36,7 +35,6 @@ namespace ProjectApp.Pages.Comments
             {
                 ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
                 ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "FullName");
-
                 return Page();
             }
 
