@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjectApp.Models
 {
@@ -13,6 +14,7 @@ namespace ProjectApp.Models
         public int ProjectId { get; set; }
         // Navigation: the project this comment belongs to
         [Display(Name = "Project")]
+        [ForeignKey("ProjectId")]
         public required Project Project { get; set; }
         // REQUIRED FK -> each comment is made by exactly one worker
         [Required]
@@ -20,6 +22,7 @@ namespace ProjectApp.Models
         public int AuthorId { get; set; }
         // Navigation: the worker who authored this comment
         [Display(Name = "Author")]
-        public required Worker Author { get; set; }
+        [ForeignKey("AuthorId")]
+        public required Worker Worker { get; set; }
     }
 }

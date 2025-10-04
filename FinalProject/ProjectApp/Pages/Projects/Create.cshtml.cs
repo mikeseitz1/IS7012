@@ -21,7 +21,7 @@ namespace ProjectApp.Pages.Projects
 
         public IActionResult OnGet()
         {
-        ViewData["PMId"] = new SelectList(_context.Worker, "Id", "FullName");
+        ViewData["PMId"] = new SelectList(_context.Worker, "Id", "Email");
             return Page();
         }
 
@@ -33,7 +33,6 @@ namespace ProjectApp.Pages.Projects
         {
             if (!ModelState.IsValid)
             {
-                ViewData["PMId"] = new SelectList(_context.Worker, "Id", "FullName");
                 return Page();
             }
 

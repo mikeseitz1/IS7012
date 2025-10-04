@@ -24,7 +24,7 @@ namespace ProjectApp.Pages.Activities
         public async Task OnGetAsync()
         {
             Activity = await _context.Activity
-                .Include(a => a.AssignedTo).ToListAsync();
+                .Include(a => a.Project).ToListAsync();
         }
     }
 }

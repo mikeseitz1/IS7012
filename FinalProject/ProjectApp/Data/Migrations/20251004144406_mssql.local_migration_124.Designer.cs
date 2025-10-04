@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectApp.Data;
 
@@ -11,9 +12,11 @@ using ProjectApp.Data;
 namespace ProjectApp.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251004144406_mssql.local_migration_124")]
+    partial class mssqllocal_migration_124
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -232,7 +235,7 @@ namespace ProjectApp.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AssignedTo")
+                    b.Property<int>("AssignedTo")
                         .HasColumnType("int");
 
                     b.Property<int>("AssignedToId")
@@ -242,7 +245,7 @@ namespace ProjectApp.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ProjectId")
+                    b.Property<int?>("ProjectId")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
@@ -438,15 +441,13 @@ namespace ProjectApp.Data.Migrations
                 {
                     b.HasOne("ProjectApp.Models.Worker", "Worker")
                         .WithMany("Activities")
-                        .HasForeignKey("AssignedTo");
-
-                    b.HasOne("ProjectApp.Models.Project", "Project")
-                        .WithMany("Activities")
-                        .HasForeignKey("ProjectId")
+                        .HasForeignKey("AssignedTo")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Project");
+                    b.HasOne("ProjectApp.Models.Project", null)
+                        .WithMany("Activities")
+                        .HasForeignKey("ProjectId");
 
                     b.Navigation("Worker");
                 });

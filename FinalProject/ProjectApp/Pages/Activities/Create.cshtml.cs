@@ -21,7 +21,9 @@ namespace ProjectApp.Pages.Activities
 
         public IActionResult OnGet()
         {
-        ViewData["AssignedToId"] = new SelectList(_context.Worker, "Id", "Email");
+        ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+            ViewData["AssignedToId"] = new SelectList(_context.Worker, "Id", "FullName");
+
             return Page();
         }
 
@@ -31,8 +33,12 @@ namespace ProjectApp.Pages.Activities
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+                ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+                ViewData["AssignedToId"] = new SelectList(_context.Worker, "Id", "FullName");
+
+
                 return Page();
             }
 

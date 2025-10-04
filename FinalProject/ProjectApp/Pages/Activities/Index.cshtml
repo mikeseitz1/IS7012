@@ -17,7 +17,13 @@
                 @Html.DisplayNameFor(model => model.Activity[0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Activity[0].AssignedTo)
+                @Html.DisplayNameFor(model => model.Activity[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activity[0].Project)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activity[0].AssignedToId)
             </th>
             <th></th>
         </tr>
@@ -29,7 +35,13 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @(item.AssignedTo != null ? Html.DisplayFor(modelItem => item.AssignedTo.FullName) : "")
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Project.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignedToId)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

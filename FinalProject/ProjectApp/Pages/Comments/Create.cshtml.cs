@@ -21,8 +21,8 @@ namespace ProjectApp.Pages.Comments
 
         public IActionResult OnGet()
         {
-        ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "Email");
         ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+        ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "FullName");
             return Page();
         }
 
@@ -32,8 +32,11 @@ namespace ProjectApp.Pages.Comments
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+                ViewData["ProjectId"] = new SelectList(_context.Project, "Id", "Name");
+                ViewData["AuthorId"] = new SelectList(_context.Worker, "Id", "FullName");
+
                 return Page();
             }
 
