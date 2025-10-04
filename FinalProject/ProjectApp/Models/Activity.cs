@@ -27,7 +27,7 @@ namespace ProjectApp.Models
         public int? AssignedToId { get; set; } = null;
 
         [Display(Name = "Assigned To")]
-        [ForeignKey("AssignedTo")]
+        [ForeignKey("AssignedToId")]
         public Worker? Worker { get; set; }
 
     }

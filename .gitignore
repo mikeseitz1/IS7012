@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FinalProject2/v17
+/FinalProject/ProjectApp/.vs/
+/FinalProject2/ProjectApp/bin/*
+/FinalProject2/ProjectApp/obj/*
+/FinalProject/ProjectApp/obj/Debug/net9.0/*

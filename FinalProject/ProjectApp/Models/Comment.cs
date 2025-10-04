@@ -18,10 +18,10 @@ namespace ProjectApp.Models
         public required Project Project { get; set; }
         // REQUIRED FK -> each comment is made by exactly one worker
         [Required]
-        [Display(Name = "Author")]
+        [Display(Name = "Worker")]
         public int AuthorId { get; set; }
         // Navigation: the worker who authored this comment
-        [Display(Name = "Author")]
+        [Display(Name = "Worker")]
         [ForeignKey("AuthorId")]
         public required Worker Worker { get; set; }
     }
