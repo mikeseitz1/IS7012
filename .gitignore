@@ -9,3 +9,7 @@
 /FinalProject/ProjectApp/obj/Debug/net9.0/compressed
 bin
 obj
+
+# Ignore all bin and obj directories recursively
+**/bin/
+**/obj/

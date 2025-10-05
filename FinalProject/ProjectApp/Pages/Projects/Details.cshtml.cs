@@ -28,7 +28,9 @@ namespace ProjectApp.Pages.Projects
                 return NotFound();
             }
 
-            var project = await _context.Project.FirstOrDefaultAsync(m => m.Id == id);
+            var project = await _context.Project
+                .Include(p => p.PM)
+                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (project is not null)
             {
