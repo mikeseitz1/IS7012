@@ -57,7 +57,7 @@
             @Html.DisplayNameFor(model => model.Project.PM)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Project.PM.Email)
+            @(Model.Project.PM != null ? Model.Project.PM.Email : "Not Assigned")
         </dd>
     </dl>
 </div>
